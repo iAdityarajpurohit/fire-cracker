@@ -4,8 +4,8 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 export default function App() {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
-        <div className='me-5 d-none d-lg-block'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer '>
+        <div className='me-5 d-none d-lg-block '>
           <h3>Get connected with us on social networks:</h3>
         </div>
 
@@ -97,7 +97,7 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                Ratlam, L-24 Jawahar Nagar, India
+                Ratlam, Sastri Nagar , India
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />

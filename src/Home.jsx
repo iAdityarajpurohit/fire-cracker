@@ -25,16 +25,16 @@ const Home = () => {
               </video>
             </div>
 
-            <Carousel.Caption className="capture card-img-overlay" style={{ top:"200px",paddingLeft:"100px",paddingRight:"100px"}}>
-               <h1 className="display-1 ">Ankit Cracker's</h1>  
+            <Carousel.Caption className="capture card-img-overlay" style={{ top:"200px",paddingLeft:"50px",paddingRight:"100px"}}>
+               <h1 className="display-1 ">Shivaji Cracker's</h1>  
                {/* <h1><span class="fire">A</span><span class="burn">N</span><span class="burn">K</span><span class="fire">I</span>
                <span class="fire">T</span> <br />
                <span class="fire">C</span><span class="burn">R</span><span class="burn">A</span><span class="fire">C</span>
                <span class="fire">K</span><span class="burn">E</span><span class="burn">R</span><span class="fire">'S</span> Text-Shadow</h1> */}
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              <button type="button" className="button-85"><NavLink  to="/About" >Review</NavLink></button>
-              <button type="button" className="button-85"><NavLink  to="/services">Go To Shoping</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85" to="/About" >Review</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85" to="/services">Go To Shoping</NavLink></button>
              
               
               </Carousel.Caption>
@@ -54,12 +54,12 @@ const Home = () => {
               </video>
             </div>
 
-            <Carousel.Caption className="capture" style={{ top:"270px",paddingLeft:"100px",paddingRight:"100px"}}>
-            <h1 className="display-1">Ankit Cracker's</h1>
+            <Carousel.Caption className="capture" style={{ top:"200px",paddingLeft:"50px",paddingRight:"100px"}}>
+            <h1 className="display-1">Shivaji Cracker's</h1>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button type="button" className="button-85"><NavLink  to="/About" >Review</NavLink></button>
-              <button type="button" className="button-85"><NavLink  to="/services">Go To Shoping</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85"  to="/About" >Review</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85"  to="/services">Go To Shoping</NavLink></button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -76,12 +76,12 @@ const Home = () => {
               </video>
             </div>
 
-            <Carousel.Caption className="capture" style={{ top:"270px",paddingLeft:"100px",paddingRight:"100px"}}>
-            <h1 className="display-1">Ankit Cracker's</h1>
+            <Carousel.Caption className="capture" style={{ top:"200px",paddingLeft:"50px",paddingRight:"100px"}}>
+            <h1 className="display-1">Shivaji Cracker's</h1>
               <h3>Third slide label</h3>
               <p> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              <button type="button" className="button-85"><NavLink  to="/About" >Review</NavLink></button>
-              <button type="button" className="button-85"><NavLink  to="/services">Go To Shoping</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85"  to="/About" >Review</NavLink></button>
+              <button type="button" className="button-85"><NavLink className="b85" to="/services">Go To Shoping</NavLink></button>
             </Carousel.Caption>
           </Carousel.Item> 
         </Carousel> 
